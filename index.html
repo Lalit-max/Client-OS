@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Appointment Scheduling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">ClientOs</div>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+        </ul>
+        <div class="buttons">
+            <button class="login">Log in</button>
+            <button class="signin">Sign in</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Easy scheduling <span class="highlight">platform</span> for Eveyone</h1>
+            <p>A linear regarding scheduling, flexible Scheduling Software to help you succes.</p>
+            <div class="ratings">
+                <span>4.9/5</span>
+                <span>4.9/5</span>
+                <span>4.3/5</span>
+            </div>
+            <a href="start free.html" started><button>GET_STARTED</button></a>
+            <p class="note">No credit card required</p>
+        </div>
+     </section>
+
+   <!-- Header S3ection -->
+<div class="header-container">
+    <h2 class="section-header">One-stop solution for service business</h2>
+</div>
+    <!-- Card Container -->
+    <div class="container">
+        <!-- Row 1: Sport, Beauty, Education -->
+        <div class="row">
+            <div class="card" id="fitness">
+                <img src="Yoga.png" alt="Sports & Fitness">
+                <div class="info">
+                    <h2>Sports & Fitness</h2>
+                    <p>“Experience seamless scheduling for beauty services, making every appointment a personalized and relaxing experience.”</p>
+                    <a href="#" class="cta-button">Check it out ➞</a>
+                </div>
+            </div>
+            <div class="card" id="beauty">
+                <img src="Beauty.png" alt="Beauty and Wellness">
+                <div class="info">
+                    <h2>Beauty & Wellness</h2>
+                    <p>“Experience seamless scheduling for beauty services, making every appointment a personalized and relaxing experience.”</p>
+                    <a href="#" class="cta-button">Check it out ➞</a>
+                </div>
+            </div>
+            <div class="card" id="education">
+                <img src="Education.png" alt="Educational">
+                <div class="info">
+                    <h2>Educational</h2>
+                    <p>“Students will love being able to schedule classes online, while teachers will never have a double booking again with Calendar Sync.”</p>
+                    <a href="#" class="cta-button">Check it out ➞</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2: Event, Meeting, Medical -->
+        <div class="row">
+            <div class="card" id="events">
+                <img src="Entertainment.png" alt="Events and Entertainment">
+                <div class="info">
+                    <h2>Events & Entertainment</h2>
+                    <p>“Effortlessly book and manage events, from intimate gatherings to grand celebrations, with ease.”</p>
+                    <a href="#" class="cta-button">Check it out ➞</a>
+                </div>
+            </div>
+            <div class="card" id="meetings">
+                <img src="Meeting.png" alt="Meetings">
+                <div class="info">
+                    <h2>Professional Meetings</h2>
+                    <p>“Simplify your business and personal meetings with flexible scheduling that works for you and your clients.”</p>
+                    <a href="#" class="cta-button">Check it out ➞</a>
+                </div>
+            </div>
+            <div class="card" id="medical">
+                <img src="Medical.png" alt="Medical & Health Services">
+                <div class="info">
+                    <h2>Medical & Health Services</h2>
+                    <p>“Efficient appointment scheduling for medical consultations, ensuring patients get the care they need, when they need it.”</p>
+                    <a href="#" class="cta-button">Check it out ➞</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabs and Sections -->
+    <div class="container">
+        <h1>Client Appointment System</h1>
+        
+        <!-- Tabs for Clients and Business -->
+        <div class="tabs">
+            <button onclick="showSection('client')" class="tab active" id="client-tab">For Clients</button>
+            <button onclick="showSection('business')" class="tab" id="business-tab">For Business</button>
+        </div>
+
+        <!-- Client Section -->
+        <div class="content" id="client-section">
+            <div class="row">
+                <div class="feature">
+                    <img src="Book.png" alt="Book Anywhere">
+                    <h3>Book Anywhere</h3>
+                    <p>Conveniently schedule appointments from any location at any time.</p>
+                </div>
+                <div class="feature">
+                    <img src="Remainders.png" alt="Reminders">
+                    <h3>Reminders</h3>
+                    <p>Receive timely reminders to ensure you never miss an appointment.</p>
+                </div>
+                <div class="feature">
+                    <img src="Reviews.png" alt="Reviews">
+                    <h3>Reviews</h3>
+                    <p>Leave feedback to help improve the service and guide other clients.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="feature">
+                    <img src="Recurrence Bookings.png" alt="Recurring Bookings">
+                    <h3>Recurring Bookings</h3>
+                    <p>Easily set up regular appointments with flexible scheduling.</p>
+                </div>
+                <div class="feature">
+                    <img src="Client App.png" alt="Client App">
+                    <h3>Client App</h3>
+                    <p>Manage your appointments on-the-go with our dedicated app.</p>
+                </div>
+                <div class="feature">
+                    <img src="Group Bookings.png" alt="Group Bookings">
+                    <h3>Group Bookings</h3>
+                    <p>Organize group sessions seamlessly with easy scheduling.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Business Section -->
+        <div class="content" id="business-section" style="display: none;">
+            <div class="row">
+                <div class="feature">
+                    <img src="Room to grow.png" alt="Room to Grow">
+                    <h3>Room to Grow</h3>
+                    <p>Scale your business with features designed to support expansion.</p>
+                </div>
+                <div class="feature">
+                    <img src="Customization.png" alt="Customization">
+                    <h3>Customization</h3>
+                    <p>Tailor the system to fit your unique business needs and branding.</p>
+                </div>
+                <div class="feature">
+                    <img src="Business Analytics.png" alt="Business Analytics">
+                    <h3>Business Analytics</h3>
+                    <p>Gain insights into performance with detailed analytics and reports.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="feature">
+                    <img src="Calender.png" alt="Calendar Sync">
+                    <h3>Calendar Sync</h3>
+                    <p>Synchronize appointments with your existing calendar for better management.</p>
+                </div>
+                <div class="feature">
+                    <img src="Multiple Location.png" alt="Multiple Locations">
+                    <h3>Multiple Locations</h3>
+                    <p>Manage multiple locations from a single, unified system.</p>
+                </div>
+                <div class="feature">
+                    <img src="Products.png" alt="Products & Promotions">
+                    <h3>Products & Promotions</h3>
+                    <p>Offer special deals and manage product listings effortlessly.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Give Appointlet a try, it’s free!</h1>
+        <p>See how Appointlet can simplify scheduling and impress your clients. There’s no obligation, and signing up takes less than 2 minutes—no credit card required!</p>
+        <a href="#" class="button">Get started for free →</a>
+        <ul class="features">
+            <li>&#10003; Unlimited meetings</li>
+            <li>&#10003; Sync to Google/Outlook Calendar</li>
+            <li>&#10003; Create Web Conference Rooms</li>
+        </ul>
+    </div>
+    <div class="steps-container">
+        <h2>Appointments in <span class="highlight">3 easy steps</span></h2>
+        <div class="steps-row">
+            <!-- Step 1 -->
+            <div class="step">
+                <div class="step-number"></div>
+                <img src="Availability.png" alt="Set availability icon">
+                <h3>Set your availability</h3>
+                <p>Define your schedule, connect your calendar, and the right times will show on your booking page.</p>
+            </div>
+            <!-- Step 2 -->
+            <div class="step">
+                <div class="step-number"></div>
+                <img src="Banking.png" alt="Share booking link icon">
+                <h3>Share your scheduling link</h3>
+                <p>Share your booking page via email, text, social, or embed it on your website.</p>
+                <button class="share-button">Share Link</button>
+            </div>
+            <!-- Step 3 -->
+            <div class="step">
+                <div class="step-number"></div>
+                <img src="TRhanks.png" alt="Thanks for booking icon">
+                <h3>Thanks for booking!</h3>
+                <p>You’ll receive an email with a calendar invite and a dashboard to manage bookings.</p>
+            </div>
+        </div>
+    </div>
+    <div class="contain">
+		<h2>Schedule an Appointment</h2>
+		<form>
+			<div class="form-group">
+				<label class="label" for="name">Name:</label>
+				<input type="text" id="name" class="input-field" required>
+			</div>
+			<div class="form-group">
+				<label class="label" for="email">Email:</label>
+				<input type="email" id="email" class="input-field" required>
+			</div>
+			<div class="form-group">
+				<label class="label" for="phone">Phone:</label>
+				<input type="tel" id="phone" class="input-field" required>
+			</div>
+			<div class="form-group">
+				<label class="label" for="date">Date:</label>
+				<input type="date" id="date" class="input-field" required>
+			</div>
+			<div class="form-group">
+				<label class="label" for="time">Time:</label>
+				<select id="time" class="input-field" required>
+					<option value="">Select Time</option>
+					<option value="9:00 AM">9:00 AM</option>
+					<option value="10:00 AM">10:00 AM</option>
+					<option value="11:00 AM">11:00 AM</option>
+					<option value="12:00 PM">12:00 PM</option>
+					<option value="1:00 PM">1:00 PM</option>
+					<option value="2:00 PM">2:00 PM</option>
+					<option value="3:00 PM">3:00 PM</option>
+					<option value="4:00 PM">4:00 PM</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label class="label" for="service">Service:</label>
+				<select id="service" class="input-field" required>
+					<option value="">Select Service</option>
+					<option value="Consultation">Consultation</option>
+					<option value="Treatment">Treatment</option>
+					<option value="Follow-up">Follow-up</option>
+					<option value="Sport">Sport</option>
+					<option value="Education">Education</option>
+					<option value="Medical">Medical</option>
+					<option value="Retailers">Retailers</option>
+					<option value="Personal meeting services">Personal meeting services</option>
+					<option value="Other">Other</option>
+				</select>
+			</div>
+			<button class="button" type="submit">Schedule Appointment</button>
+		</form>
+	</div>
+    
+    <h1>Consulting Service Pricing</h1>
+    <div class="Paisa">
+        <!-- Free Tier -->
+        <div class="pricing-card">
+            <h2>Free</h2>
+            <p>Basic access for individuals with limited needs.</p>
+            <div class="price">$0</div>
+            <ul class="features">
+                <li>Limited resources and tools</li>
+                <li>Group webinars and Q&A</li>
+                <li>15-minute intro consultation</li>
+                <li>Community forum access</li>
+            </ul>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <!-- Pro Tier -->
+        <div class="pricing-card">
+            <h2>Pro</h2>
+            <p>For professionals or small businesses needing ongoing support.</p>
+            <div class="price">$49 - $99 / mo</div>
+            <ul class="features">
+                <li>1-on-1 consultations (1 hr/month)</li>
+                <li>Access to advanced resources</li>
+                <li>Priority email support</li>
+                <li>Premium workshops and webinars</li>
+            </ul>
+            <a href="#" class="btn">Upgrade to Pro</a>
+        </div>
+
+        <!-- Team Tier -->
+        <div class="pricing-card">
+            <h2>Team</h2>
+            <p>For businesses or teams needing comprehensive support.</p>
+            <div class="price">$299+ / mo</div>
+            <ul class="features">
+                <li>5 hrs shared 1-on-1 consultations</li>
+                <li>Full team access to all resources</li>
+                <li>Priority phone & email support</li>
+                <li>Custom workshops & analytics</li>
+            </ul>
+            <a href="#" class="btn">Join as a Team</a>
+        </div>
+    </div>
+
+<!-- Contact Section -->
+<div class="contact-form-wrapper" id="contact">
+    <div class="contact-form-container">
+        <h2><span>Get In</span> Touch</h2>
+        <div class="form-content">
+
+            <form id="form">
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-user"></i> Name</label>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone"><i class="fas fa-phone"></i> Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-comment"></i> Message</label>
+                    <textarea id="message" name="message" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn" id="button">Submit <i class="fas fa-paper-plane"></i></button>
+            </form>
+            <p id="successMessage" style="display: none; color: green;">Message sent successfully!</p> 
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="logo">
+        <span style="color: #009FDA;">Client</span><span style="color: #333;"> Os</span>
+    </div>
+
+    <div class="columns">
+        <div class="column">
+            <h4>Features</h4>
+            <ul>
+                <li><a href="#">All Features list</a></li>
+                <li><a href="#">Features & Integrations</a></li>
+                <li><a href="#">Booking Channels</a></li>
+                <li><a href="#">Website templates</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Client Os vs Alternatives</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h4>Service</h4>
+            <ul>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Enterprise</a></li>
+                <li><a href="#">Business Types</a></li>
+                <li><a href="#">Development & API</a></li>
+                <li><a href="#">Company Directory listing</a></li>
+                <li><a href="#">Full Setup Help</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h4>Help</h4>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Video Tutorials</a></li>
+                <li><a href="#">Business blog</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h4>About</h4>
+            <ul>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Our team</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Vacancies</a></li>
+                <li><a href="#">News Blog</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">GDPR Compliance</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Data Processing Agreement</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="social-icons">
+        <a href="#"><img src="facebook.png" width=40px" alt="facebook"></a>
+        <a href="#"><img src="instagram.jpg" width="40px"alt="instagram"></a>
+        <a href="#"><img src="limked in.png" width="40px"alt="linked in"></a>
+        <a href="#"><img src="x.com.png"width="40px" alt="x"></a>
+    </div>
+
+    <div class="app-links">
+        <a href="#"><img src="playstore.png" width="80px"alt="Google Play"></a>
+        <a href="#"><img src="app store.png"width="80px" alt="App Store"></a>
+    </div>
+
+    <div class="legal">
+        Client Os pvt.Ltd, Main branch at Ghangapatna,Bhubaneswer,Odisha,753054.<br>
+        Contact us: <a href="client Os@gmail.com"> Client Os@gmail.com </a> or <a href="Client Os.github">Client Os.github</a>.
+    </div>
+    <div class="legal">
+        &copy; 2024 Client Os. All rights reserved.
+        </div>
+</div>
+
+    <script>
+        function showSection(section) {
+            document.getElementById('client-section').style.display = section === 'client' ? 'grid' : 'none';
+            document.getElementById('business-section').style.display = section === 'business' ? 'grid' : 'none';
+            
+            document.getElementById('client-tab').classList.toggle('active', section === 'client');
+            document.getElementById('business-tab').classList.toggle('active', section === 'business');
+        }
+    </script>
+</body>
+</html>

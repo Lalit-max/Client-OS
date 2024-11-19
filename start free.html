@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling Interface</title>
+    <style>
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #5a8ba6;
+        }
+
+        /* Header section styling */
+        .header {
+            text-align: center;
+            color: #0f0f0f;
+            margin-bottom: 20px;
+        }
+
+        /* Button styling */
+        .get-started {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: rgb(38, 166, 23);
+            color: #0b0c0c;
+            border: none;
+            border-ra
+        
+        }
+        /* General container for scrollable section */
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding: 16px;
+    scroll-behavior: smooth;
+}
+
+/* Style for each individual card */
+.group-card {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    scroll-snap-align: start;
+}
+
+/* Style for image container */
+.container-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Styling the description area */
+.container-description {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.container-description h3 {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.container-description p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Styling for the button */
+.view-botton {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.view-botton:hover {
+    background-color: #ede028;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Flexible scheduling software to help you succeed</h1>
+        <p>With seamless client scheduling, secure payments, and workflow automation, all you have to do is show up on time.</p>
+        <p>No credit card needed</p>
+    </div>
+
+    <!-- Scrollable Section -->
+    <div class="scroll-container">
+        <div class=" group-card">
+            <div class="container-image">
+                <img src="photo/Hair appointment.jpeg" alt="container-image">
+            </div>
+            <div class="container-description">
+                <h3>Hair Appointment</h3>
+                    <a href="https://b21india.com/" class="view-botton">Read More</a>
+            </div>
+            </div>
+
+            <div class="scroll-container">
+                <div class=" group-card">
+                    <div class="container-image">
+                        <img src="photo/lens.png" alt="container-image">
+                    </div>
+                    <div class="container-description">
+                        <h3>Lens Adjustment</h3>
+                            <a href="https://www.adobe.com/in/creativecloud/photography/discover/lens-calibration.html" class="view-botton">Read More</a>
+                    </div>
+                    </div>
+
+                    <div class="scroll-container">
+                        <div class=" group-card">
+                            <div class="container-image">
+                                <img src="photo/car.jpeg" alt="container-image">
+                            </div>
+                            <div class="container-description">
+                                <h3>Car Detailing</h3>
+                                    <a href="https://www.thedetailingmafia.com/locate-our-outlets/Bhuwaneshwar" class="view-botton">Read More</a>
+                            </div>
+                            </div>
+
+                            <div class="scroll-container">
+                                <div class=" group-card">
+                                    <div class="container-image">
+                                        <img src="photo/dance lesson.jpeg" alt="container-image">
+                                    </div>
+                                    <div class="container-description">
+                                        <h3>Dance Lesson</h3>
+                                            <a href="https://www.youtube.com/channel/UCLp4feVX5jrcFUHxro7e-TA" class="view-botton">Read More</a>
+                                    </div>
+                                    </div>
+                                </body>
+                           </html>
